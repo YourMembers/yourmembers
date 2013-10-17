@@ -1,0 +1,29 @@
+.ym_datepicker, .ym_yearpicker {
+	background: url('../images/calendar.png') no-repeat;
+	background-position: 2px 2px;
+	padding-left: 20px !important;
+}
+
+.ym_tick, .ym_cross, .ym_cancel, .ym_user_add, .ym_user_delete, .ym_delete, .ym_accept, .ym_cart_error, .ym_cart, .ym_bin_recycle, .ym_edit, .ym_node_tree, .ym_user_go {
+	display: block;
+	float: left;
+	width: 16px;
+	height: 16px;
+	text-decoration: none;
+}
+
+.ym_tick { background: url('../images/tick.png') top left no-repeat; }
+.ym_cross { background: url('../images/cross.png') top left no-repeat; }
+.ym_cancel { background: url('../images/cancel.png') top left no-repeat; }
+.ym_user_add { background: url('../images/user_add.png') top left no-repeat; }
+.ym_user_delete { background: url('../images/user_delete.png') top left no-repeat; }
+.ym_delete { background: url('../images/delete.png') top left no-repeat; }
+.ym_accept { background: url('../images/accept.png') top left no-repeat; }
+.ym_cart_error { background: url('../images/cart_error.png') top left no-repeat; }
+.ym_cart { background: url('../images/cart.png') top left no-repeat; }
+.ym_bin_recycle { background: url('../images/bin_recycle.png') top left no-repeat; }
+.ym_edit { background: url('../images/edit.png') top left no-repeat; }
+.ym_node_tree { background: url('../images/node-tree.png') top left no-repeat; }
+.ym_user_go { background: url('../images/user_go.png') top left no-repeat; }
+
+.ym_ajax_loading_image { background: url('../../../../wp-admin/images/loading.gif') top right no-repeat; }

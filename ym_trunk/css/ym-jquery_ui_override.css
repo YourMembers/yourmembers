@@ -1,0 +1,30 @@
+.ui-state-default a, .ui-state-default a:link, .ui-state-default a:visited {
+	color: #21759B;
+}
+
+.ui-state-active a, .ui-state-active a:link, .ui-state-active a:visited {
+	font-weight: bold;
+}
+
+.ui-tabs-panel .ui-tabs-nav li a {
+	font-size: 11px;
+}
+
+#masspostsetuptabs .ui-tabs-nav li a, #ym_messages .ui-tabs-nav li a {
+	font-size: 10px;
+}
+
+.ui-widget-header {
+	background: url(../images/tab_back.png) left top repeat-x;
+	border: 1px solid #CCC;
+}
+
+.ui-tabs .ym_subtabs {
+	padding: 3px;
+}
+.ym_admin_iframe, .ym_admin_iframe iframe {
+	margin: 0px;
+}
+.ui-tabs .ym_subtabs .ym_admin_iframe {
+	padding: 0px;
+}

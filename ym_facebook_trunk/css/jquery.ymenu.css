@@ -1,0 +1,94 @@
+/**
+ * jQuery yMenu
+ *
+ * @url         http://www.mewsoft.com/jquery/ymenu/
+ * @author      Dr. Ahmed Amin Elsheshtawy, Ph.D. <sales@mewsoft.com>
+ * @version     1.0
+ * @date        02.07.2011
+ * @Copyright 2011 Mewsoft Corp. http://www.mewsoft.com
+ * @Released under the MIT and GPL licenses.
+ */
+
+ /* Menu container */
+.ymenu {
+}
+
+.ymenu ul {
+    width: 210px; /* sets the width of the main root menu */
+    position: relative; /*Relative to the containing division */
+    z-index: 10; /*We need to adjust the z-index values in order to display the successive lists properly */
+    margin: 0;
+    padding: 0;
+    list-style: none; /* Removes the dots from the default Bullet styles */
+    font: normal 12px Arial, Helvetica, sans-serif;
+    background-color: #d2d2d2; 	 /* Menu background color #66839f*/
+	border-top: 1px solid #d2d2d2;
+	border-left: 1px solid #d2d2d2;
+}
+.ymenu ul li {
+	border-bottom: 1px solid #d2d2d2;
+	border-right: 1px solid #d2d2d2;
+	background: transparent url(../images/ymenu/ymenu-bg-gray.png) repeat-x scroll;/* menu items background*/
+    text-align: left;
+    position: relative;
+    z-index: 12;
+    margin: 0px;
+    padding: 0px 0px;
+	font: normal 12px Arial, Helvetica, sans-serif;
+}
+
+.ymenu ul li ul {
+    display: none;
+    position: absolute;
+    z-index: 15;
+    top: -1px;
+    left: 210px; /* set this to the same as the width of the menus*/
+    margin: 0px;
+    text-align: left;
+    width: 210px; /* Set the width of the sub menus */
+}
+
+.ymenu ul li a:link, .ymenu ul li a:visited, .ymenu ul li a:active {
+    padding: 8px; /* sets the height of the menu items*/
+	overflow: auto; /*force hasLayout in IE7 */
+    color: #000; /*menu items links text color */
+	font: normal 12px Arial, Helvetica, sans-serif;
+    margin: 0px;
+    text-decoration: none;
+    z-index: 15;
+    display: block;
+}
+
+.ymenu ul li:hover {
+	border-bottom: 1px solid #a8a8a8;
+	border-right: 1px solid #a8a8a8;
+	background: #c0c0c0 url(../images/ymenu/ymenu-hover-gray.png) repeat-x scroll; /* hover menu item background color */
+    font: normal 12px Arial, Helvetica, sans-serif;
+}
+
+.ymenu ul li a:hover {
+	color: #004e9b;
+	font: normal 12px Arial, Helvetica, sans-serif;
+	text-decoration: underline;
+}
+
+.ymenu-folder {
+	background: url(../images/ymenu/ymenu-arrow-right.gif) no-repeat scroll 98% center ;
+}
+.ymenu-folder-hover {
+	background: url(../images/ymenu/ymenu-arrow-right-open.gif) no-repeat scroll 98% center ;
+}
+
+.ymenu ul li ul li {
+    text-align: left;
+}
+
+.ymenu ul li:hover > ul {
+    display: block;
+}
+
+/* Fix for Space between list items in IE 6 */
+.ymenu a, .ymenu ul li a {display: inline-block;} 
+.ymenu a{display: block;}
+
+/* yMenu ends */

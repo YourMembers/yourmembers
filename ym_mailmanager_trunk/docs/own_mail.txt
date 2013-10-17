@@ -1,0 +1,22 @@
+How to integrate your own Mailing Function.
+
+New file in mailgateway, the file name cannon contain _class
+
+$mm->page_root containts the base URL to work from
+Substitute mailgateway in the function name for the lowercase name of you $name;
+
+// Start Base File
+<?php
+
+$name = 'MailGateway';
+
+function mm_mailgateway_settings(&$break) {
+	$break = TRUE;
+	global $mm;
+
+	// settings page
+}
+
+
+?>
+//END FILE

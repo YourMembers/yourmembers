@@ -1,0 +1,48 @@
+Your Members - Adaptive Pricing Plugin
+
+This plugin allows the creation of different pricing structures which can be restricted by time or number of sales.
+
+-------------------------
+     Before you Begin
+-------------------------
+
+Your Members Adaptive Pricing Plugin requires an authenticated and active copy of Your Members to be installed.
+
+-------------------------
+Installation Instructions
+-------------------------
+
+1. Unzip this zip file
+2. Upload ym-ap to your WordPress Plugins Folder
+3. In WordPress Admin, goto Plugins and Enable the plugin.
+4. The Adaptive Pricing settings page, can be found under the Your Members Menu in the side bar, or in the
+	Your Members - Members and Subscription Settings Page
+5. Setup Adaptive Pricing Models
+
+
+-------------------------
+          Usage
+-------------------------
+
+1. To create a model visit the settings page, the right hand column will allow to give your model a rememberable name,
+	and select what model this is to be applied to (A Pay Per Post or Subscription/Pack)
+2. On the second page you can select which PPP/Pack to apply the model to, and in the case of a PPP, whether to take
+	the PPP off sale after the last tier/level
+3. Use the add tier button to add a new tier/level
+
+Tiers have the following options:
+
+* Price for this tier, using your YM Selected Currency
+* Tier Type
+
+Tiers/levels come in three kinds.
+
+* Sales Based - The tier is valid for a number of sales
+* Time Based - End the tier at a specific time
+* Hour Based - End the tier after a number of hours after it starts
+
+4. Submit the form
+5. You can now review the model and edit its tiers.
+6. Finally when happy you can enable the Pricing Model.
+	Your Members Adaptive Pricing Model, will enable and disable each tier as they become valid/invalid
+	Logs are kept of each Price Change/Tier Update that occurs.

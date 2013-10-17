@@ -1,0 +1,245 @@
+/*
+* $Id: ym_admin.css 2554 2013-01-21 17:05:36Z bcarlyon $
+* $Revision: 2554 $
+* $Date: 2013-01-21 17:05:36 +0000 (Mon, 21 Jan 2013) $
+*/
+
+/**
+Dashboard
+*/
+.ym_full, .ym_third, .ym_two_third {
+	width: 100%;
+	margin: 5px 0px;
+}
+.ym_two_third {
+	width: 65%;
+}
+.ym_third {
+	width: 32%;
+}
+.ym_full img {
+	display: block;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/**
+Graph
+*/
+#ym_graph_holder {
+	display: block;
+	overflow: auto;
+	position: relative;
+	margin-left: auto;
+	margin-right: auto;
+	clear: both;
+}
+#ym_graph_holder img {
+	width: 75%;
+	margin: 0px auto;
+}
+
+#ym_graph_nav {
+	display: block;	
+}
+
+#ym_graph_nav li {
+	float: left;
+	width: 25%;
+}
+#ym_graph_nav li a {
+	display: block;
+	text-align: center;
+	padding: 0px 10px;
+}
+
+/*
+Bits
+*/
+.postbox h3.hndle {
+	cursor: default;
+}
+.postbox h3.ymcancollapse {
+	cursor: pointer;
+}
+
+/**
+Flow/Formbuilder
+*/
+#ym_form_builder, .isconnected {
+	/*
+	min-height: 250px;
+	*/
+	background: #FFFFFF;
+	border: 1px solid #888888;
+	margin: 0px;
+	padding: 0px;
+	min-height: 100px;
+}
+.ym_available_form_elements {
+	margin: 3px 0px;
+}
+.ym_available_form_elements#login {
+	padding: 3px 8px;
+	margin: 3px 0px;
+	width: 50px;
+}
+.ym_form_element {
+	display: block;
+	min-height: 30px;
+	margin: 2px;
+	/*
+	min-width: 600px;
+	*/
+}
+.ym_form_element .ym_cross {
+	margin: 2px 3px;
+}
+.flow_page_creator_texts {
+	float: left;
+	width: 45%;
+}
+.flow_page_creator {
+	float: left;
+	width: 45%;
+	border-left: 1px solid #3F3F3F;
+	height: 500px;
+	overflow: auto;
+	background: #FFFFFF;
+}
+#flow_pages_flow {
+	margin-right: 20px;
+	border-left: 0px;
+	border-right: 1px solid #3F3F3F;
+}
+.flow_page_creator li {
+	margin: 5px;
+	display: block;
+}
+.ui-state-highlight {
+	border: 1px dashed #000000;
+	margin: 5px;
+	min-height: 20px;
+}
+#ym_form_builder .ui-state-highlight {
+	height: 75px;
+}
+input[readonly].ym_reg_flow_disabled {
+	background: #AAAAAA;
+	background-color: #AAAAAA;
+}
+
+/**
+Bits
+*/
+.ym_option {
+	display: block;
+	margin: 10px;
+	padding: 10px;
+	background: #EFEFEF;
+	clear: block;
+	overflow: auto;
+}
+.ym_option .input {
+	float: right;
+	clear: right;
+}
+.ym_option label {
+	float: left;
+	font-weight: 700;
+}
+.ym_option .caption {
+	color: #555555;
+	float: left;
+	clear: left;
+	width: 30%;
+}
+
+.ym_table td {
+	padding: 5px 3px;
+	border-top: 1px solid #DEDEDE;
+}
+
+.ym_table th {
+	padding: 7px 5px;
+	font-size: 15px;
+}
+
+/**
+Wizard
+*/
+#ym_wizard {
+	display: block;
+	background: #6aafcf;
+	border: 1px solid #2a8cba;
+	padding: 5px 10px;
+	margin: 0px 0px 10px 0px;
+	overflow: auto;
+}
+#ym_wizard a, #ym_wizard h3 {
+	color: #FFFFFF;
+}
+#ym_wizard div {
+	line-height: 2.5em;
+}
+#ym_wizard span {
+	margin: 0px;
+	padding: 0px;
+	text-align: center;
+	color: #FFFFFF;
+	height: 15px;
+	font-size: 15px;
+	display: inline;
+	float: left;
+}
+#ym_wizard_close, #ym_wizard_next {
+	float: right;
+}
+#ym_wizard_next {
+	font-weight: 700;
+}
+#ym_wizard span#ym_wizard_step {
+	margin: 0px 10px;
+	border: 0px;
+	text-align: center;
+}
+#ym_wizard #ym_wizard_progress {
+	width: 150px;
+	float: left;
+}
+#ym_wizard.ym_wizard_completed {
+	background: #42C842;
+}
+
+.ym_admin_input {
+	width: 400px;
+}
+
+.ym_table_collapse td {
+	padding: 0px;
+	margin: 0px;
+}
+
+.mceIframeContainer { background: #FFF; }
+.ym_ajax_success { background: yellow; }
+.ym_ajax_failed { background: red; }
+.ym_form_submit:hover { backgroud: #EFEFEF; }
+
+.table_divider { border-top: 1px solid #9F9F9F; }
+
+.ym_packetize_data {
+	width: 600px;
+	height: 600px;
+	overflow: scroll;
+}
+
+#ym_icon_key {
+	cursor: pointer;
+	position: fixed;
+	top: 0px;
+	right: 5px;
+	padding: 0px 10px 10px 10px;
+	background: #9F9F9F;
+	color: #FFFFFF;
+	overflow: hidden;
+}

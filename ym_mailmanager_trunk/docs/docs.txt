@@ -1,0 +1,37 @@
+MailManager
+
+Upload
+Active
+New Menu Item after Support under YourMembers: MailManager
+First Visit will take you to the settings page.
+Check settings are correct and Submit.
+
+For CAN Spam Compliancy you need to supply a Postal Address. And you must include the [unsubscribe] and [address] shortags in both the broadcast and generic footers.
+
+You can now create emails, email series and broadcasts.
+
+When a user unsubscribes from Emails they will be routed to the series Unsubscribe Page, which can be a page/post on your WordPress install, or any URL, just put the link in the box.
+At the bottom of the page you can set what time you want the checker to run. The checker will send pending emails at this time, and do MailChimp Sync if needed.
+
+You can manually run the series checker which will check to see if there are pending emails to be sent.
+
+On the broadcast page you can create or send an existing email to a list of users.
+On the Create page you can create a email to be sent later
+
+On the series page you can create a series of emails for a list. And associate existing emails with a series.
+You can then set the number of days after the previous email each email in the series is to be sent.
+The Series needs to be enabled in order to start sending.
+When people join the list they will start at the beginning of the series
+
+On the settings page you can enable the MailChimp module, which will allow you to Associate a local list, with a MailChimp list, you can then use MailChimp's AutoResponder to schedule series.
+MailManager will stay synced with the MailChimp List.
+Any unassociated list will be sent via WP_Mail.
+
+You will need a MailChimp API Key and account to use this feature.
+
+Stats are displayed on the YM HomePage also
+
+Following Shortcodes can be used in email content:
+
+[ym_mm_custom_field field="FIELDNAME"] will display the recipents FILEDNAME if exists
+[ym_mm_if_custom_field field="FIELDNAME"]content[/ym_mm_if_custom_field] if Field exists show content

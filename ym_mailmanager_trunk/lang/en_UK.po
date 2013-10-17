@@ -1,0 +1,1271 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: YM MailManager\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2011-08-16 12:27+0100\n"
+"PO-Revision-Date: 2011-08-16 12:27+0100\n"
+"Last-Translator: Barry Carlyon <barry@barrycarlyon.co.uk>\n"
+"Language-Team: CodingFutures <sales@codingfutures.co.uk>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-KeywordsList: __;gettext_noop\n"
+"X-Poedit-Basepath: .\n"
+"X-Poedit-Language: English\n"
+"X-Poedit-Country: UNITED KINGDOM\n"
+"X-Poedit-SourceCharset: utf-8\n"
+"X-Poedit-SearchPath-0: ..\n"
+"X-Poedit-SearchPath-1: .\n"
+
+#: ../mailmanager.php:51
+msgid "Broadcast"
+msgstr ""
+
+#: ../mailmanager.php:52
+msgid "Create"
+msgstr ""
+
+#: ../mailmanager.php:53
+msgid "View Emails"
+msgstr ""
+
+#: ../mailmanager.php:54
+msgid "Series"
+msgstr ""
+
+#: ../mailmanager.php:55
+msgid "Welcome Message"
+msgstr ""
+
+#: ../mailmanager.php:56
+msgid "Invoicing"
+msgstr ""
+
+#: ../mailmanager.php:57
+#: ../includes/mm_includes.php:451
+msgid "Settings"
+msgstr ""
+
+#: ../mailmanager.php:58
+msgid "Gateways"
+msgstr ""
+
+#: ../mailmanager.php:150
+msgid "MailManger: Cron"
+msgstr ""
+
+#: ../mailmanager.php:154
+msgid "The run of the cron is complete"
+msgstr ""
+
+#: ../mailmanager.php:160
+msgid "MailManger"
+msgstr ""
+
+#: ../mailmanager.php:175
+#, php-format
+msgid "The Cron is set to check %s and will next run at %s"
+msgstr ""
+
+#: ../mailmanager.php:177
+#, php-format
+msgid "Run the <a href=\"%s&mm_action=runnow\">cron now</a>"
+msgstr ""
+
+#: ../mailmanager.php:193
+#, php-format
+msgid "You are running Your Members Mailmanager Version: %s"
+msgstr ""
+
+#: ../includes/mm_includes.php:131
+msgid "Entire Wordpress User Database"
+msgstr ""
+
+#: ../includes/mm_includes.php:132
+msgid "All Blog Commenters"
+msgstr ""
+
+#: ../includes/mm_includes.php:133
+msgid "All Guest Commenters (No user account)"
+msgstr ""
+
+#: ../includes/mm_includes.php:134
+msgid "All Registered Commenters"
+msgstr ""
+
+#: ../includes/mm_includes.php:137
+msgid "Your Members Active Users"
+msgstr ""
+
+#: ../includes/mm_includes.php:138
+msgid "Your Members Inactive Users"
+msgstr ""
+
+#: ../includes/mm_includes.php:139
+msgid "Your Members Expired Users"
+msgstr ""
+
+#: ../includes/mm_includes.php:142
+msgid "Your Members active members of type: "
+msgstr ""
+
+#: ../includes/mm_includes.php:333
+msgid "The MM Check Series Queue is being manually run"
+msgstr ""
+
+#: ../includes/mm_includes.php:348
+msgid "Found"
+msgstr ""
+
+#: ../includes/mm_includes.php:358
+msgid "user is subscribed"
+msgstr ""
+
+#: ../includes/mm_includes.php:390
+msgid "sending EID:"
+msgstr ""
+
+#: ../includes/mm_includes.php:445
+msgid "Gateway Files missing Reset to WPMail"
+msgstr ""
+
+#: ../includes/mm_includes.php:470
+#, php-format
+msgid "You have sent %s Emails"
+msgstr ""
+
+#: ../includes/mm_includes.php:490
+#, php-format
+msgid "There are %s Broadcast Emails Scheduled"
+msgstr ""
+
+#: ../includes/mm_includes.php:492
+msgid "the next is due:"
+msgstr ""
+
+#: ../includes/mm_includes.php:503
+#, php-format
+msgid "There are %s/%s Series currently active"
+msgstr ""
+
+#: ../includes/mm_includes.php:508
+msgid "MailManager Email Stats"
+msgstr ""
+
+#: ../includes/mm_includes.php:510
+msgid "MailManager"
+msgstr ""
+
+#: ../includes/mm_includes.php:523
+msgid "Subscribers"
+msgstr ""
+
+#: ../includes/mm_welcome.php:17
+#, php-format
+msgid "New user registration on your site %s:"
+msgstr ""
+
+#: ../includes/mm_welcome.php:18
+#, php-format
+msgid "Username: %s"
+msgstr ""
+
+#: ../includes/mm_welcome.php:19
+#, php-format
+msgid "E-mail: %s"
+msgstr ""
+
+#: ../includes/mm_welcome.php:21
+#, php-format
+msgid "[%s] New User Registration"
+msgstr ""
+
+#: ../mailgateway/aweber/aweber.php:161
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:153
+msgid "Save Client"
+msgstr ""
+
+#: ../mailgateway/aweber/aweber.php:180
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:171
+msgid "Associations were updated"
+msgstr ""
+
+#: ../mailgateway/aweber/aweber.php:203
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:194
+msgid "Save Associations"
+msgstr ""
+
+#: ../mailgateway/aweber/aweber.php:239
+msgid "You need to Connect Your Members MailManager to Aweber"
+msgstr ""
+
+#: ../mailgateway/aweber/aweber.php:247
+msgid "You need to Select a Aweber Account for Your Members MailManager to use"
+msgstr ""
+
+#: ../mailgateway/aweber/aweber.php:273
+msgid "You have no Lists on this Account on "
+msgstr ""
+
+#: ../mailgateway/aweber/aweber.php:279
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:256
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:273
+#: ../mailgateway/mailchimp/mailchimp.php:946
+msgid "--Select--"
+msgstr ""
+
+#: ../mailgateway/aweber/aweber.php:308
+msgid "The Aweber Associated Lists can only be sent to via Aweber"
+msgstr ""
+
+#: ../mailgateway/aweber/aweber.php:315
+msgid "Series are being kept synced with Aweber."
+msgstr ""
+
+#: ../mailgateway/aweber/aweber.php:316
+msgid "The Aweber Associated Lists can only be sent to via Aweber, a series entry exists for Sync Reasons"
+msgstr ""
+
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:134
+#: ../mailgateway/getresponse/getresponse.php:192
+#: ../mailgateway/mailchimp/mailchimp.php:455
+#: ../mailgateway/mailchimp/mailchimp.php:465
+msgid "Save API Key"
+msgstr ""
+
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:209
+msgid "You need to Supply your "
+msgstr ""
+
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:219
+msgid "You need to select a "
+msgstr ""
+
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:250
+msgid "You have no Clients on "
+msgstr ""
+
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:267
+msgid "You have no Lists on this Client on "
+msgstr ""
+
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:303
+msgid "You are using "
+msgstr ""
+
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:310
+msgid "Series are being kept synced with"
+msgstr ""
+
+#: ../mailgateway/campaign_monitor/campaign_monitor.php:311
+msgid "The "
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:100
+msgid "GetResponse Returned an Error"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:102
+msgid "GetReponse API Key was Accepted and has been Saved"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:113
+msgid "General GetResponse Settings were Saved"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:142
+#: ../mailgateway/getresponse/getresponse.php:144
+#: ../mailgateway/mailchimp/mailchimp.php:249
+#: ../mailgateway/mailchimp/mailchimp.php:251
+msgid "Additional Options"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:146
+#: ../mailgateway/mailchimp/mailchimp.php:253
+msgid "Details to use when sending a Broadcast or Series Email"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:151
+#: ../mailgateway/mailchimp/mailchimp.php:257
+msgid "From Address"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:151
+#: ../mailgateway/mailchimp/mailchimp.php:257
+msgid "Address Emails appear to come from"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:154
+msgid "Campaign"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:154
+msgid "Select a Campaign to associate with"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:158
+#: ../mailgateway/mailchimp/mailchimp.php:266
+#: ../mailgateway/wp_mail/wp_mail.php:93
+#: ../mailgateway/wp_mail/wp_mail.php:117
+#: ../mailgateway/wp_mail/wp_mail.php:130
+msgid "Save Settings"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:174
+#: ../mailgateway/mailchimp/mailchimp.php:413
+msgid "Manual Sync"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:177
+#: ../mailgateway/mailchimp/mailchimp.php:416
+msgid "Run a manual List Sync"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:183
+#: ../mailgateway/getresponse/getresponse.php:185
+msgid "GetResponse Settings API Key"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:190
+msgid "GetResponse API Key"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:190
+msgid "Your GetResponse API Key"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:201
+msgid "GetResponse: No ApiKey"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:202
+msgid "You need to Supply your GetResponse API Key"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:203
+msgid "GetResponse Settings"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:207
+#: ../mailgateway/mailchimp/mailchimp.php:508
+msgid "Welcome Messages"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:208
+#: ../mailgateway/mailchimp/mailchimp.php:509
+msgid "WordPress Welcome emails if enabled here are still sent via WP Mail"
+msgstr ""
+
+#: ../mailgateway/getresponse/getresponse.php:216
+msgid "A Get Response broadcast is called a Newsletter"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:127
+msgid "MailChimp Returned an Error"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:129
+msgid "MailChimp API Key was Accepted and has been Saved"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:140
+msgid "MailChimp List was Saved"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:162
+msgid "General MailChimp Settings were Saved"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:189
+msgid "That&#39;s it your done"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:201
+msgid "Please check these settings are correct and click submit to complete the initial MailChimp Sync Run"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:203
+msgid "You need to select a Default Template"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:207
+msgid "List Settings"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:209
+msgid "Your Members MailManager will create a segment for all local lists"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:210
+msgid "Your Members MailManager will sync all Your Members Custom Profile Fields with MailChimp"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:212
+msgid "You can optionally change this settings to change the MailChimp behaviour with adding new people to the mailing list"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:213
+msgid "You do not necessarily need Double Opt in as in order to register for your membership site they have completed double opt in"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:219
+msgid "Enable Double Opt In"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:219
+msgid "Send users a message asking if they wish to join the list"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:221
+msgid "Enable Welcome Message"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:221
+msgid "Send users a list welcome message"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:228
+#: ../mailgateway/mailchimp/mailchimp.php:230
+msgid "MailChimp List Unsubscribe options"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:232
+msgid "When a user Unsubscribes from the MailChimp list, on the MailChimp side, you can choose what to do"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:237
+msgid "Disable the YM Account"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:238
+msgid "Notify the Admin"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:239
+msgid "Nothing"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:242
+msgid "What to do on Unsubscribe"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:258
+msgid "From Name"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:258
+msgid "The Name emails appear to be from"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:271
+#: ../mailgateway/mailchimp/mailchimp.php:273
+msgid "Default Template Select"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:277
+msgid "Select a default theme template"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:299
+msgid "View User/Custom Templates"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:300
+msgid "View Base Templates"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:301
+msgid "View Gallery Templates"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:405
+msgid "Save Default Template Selection"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:422
+#: ../mailgateway/mailchimp/mailchimp.php:424
+msgid "MailChimp List Associate"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:427
+msgid "We need to associate Your Members MailManager with a single list"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:428
+msgid "We then segment the list in order to create different mailing lists"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:434
+msgid "MailChimp List"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:434
+msgid "Select a List to associate with"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:437
+msgid "Save List"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:443
+#: ../mailgateway/mailchimp/mailchimp.php:445
+msgid "MailChimp Settings API Key"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:451
+#: ../mailgateway/mailchimp/mailchimp.php:465
+#: ../mailgateway/mailchimp/mailchimp.php:469
+msgid "MailChimp API Key"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:451
+msgid "Your MailChimp API Key"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:453
+msgid "You can get your API Key <a href=\"http://admin.mailchimp.com/account/api-key-popup\" id=\"mcinterrupt\">here</a>"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:454
+msgid "You do not have MailChimp yet? Please use our link to <a href=\"http://eepurl.com/IqI5\">sign up</a>"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:482
+msgid "MailChimp: No ApiKey"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:483
+msgid "You need to Supply your MailChimp API Key"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:484
+#: ../mailgateway/mailchimp/mailchimp.php:491
+#: ../mailgateway/mailchimp/mailchimp.php:498
+msgid "MailChimp Settings"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:489
+msgid "MailChimp: No List Associated"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:490
+msgid "You need to select a MailChimp list to associate with"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:496
+msgid "MailChimp: No Default Template"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:497
+msgid "You need to select a Default MailChimp Template to use"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:504
+msgid "Connected wtih MailChimp"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:543
+#: ../mailgateway/mailchimp/mailchimp.php:1257
+msgid "Stats"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:548
+msgid "Nothing to see here, yet..."
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:571
+#: ../mailgateway/mailchimp/mailchimp.php:611
+msgid "A MailChimp Broadcast is called a Campaign"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:576
+#: ../mailgateway/mailchimp/mailchimp.php:616
+msgid "TimeWarp"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:576
+#: ../mailgateway/mailchimp/mailchimp.php:616
+msgid "If used must schedule at least 24 hours ahead. Timewarp makes the email arrive at xhours in the relevant TimeZone"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:589
+msgid "Campaign has been created"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:594
+#: ../mailgateway/mailchimp/mailchimp.php:632
+msgid "The Campaign failed to be created"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:606
+msgid "You can create a draft campaign to send later"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:628
+msgid "The Campaign has been saved as a Draft"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:672
+msgid "No"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:673
+msgid "Yes"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:681
+msgid "Campaign was deleted"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:683
+msgid "Campaign was not deleted"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:695
+#: ../mailgateway/mailchimp/mailchimp.php:875
+msgid "Drafts"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:702
+#: ../mailgateway/mailchimp/mailchimp.php:882
+msgid "Paused"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:710
+#: ../mailgateway/mailchimp/mailchimp.php:890
+msgid "Scheduled"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:718
+#: ../mailgateway/mailchimp/mailchimp.php:898
+msgid "Active/Sending"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:725
+#: ../mailgateway/mailchimp/mailchimp.php:906
+msgid "Sent"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:800
+msgid "The Auto Responder has been saved activated"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:808
+msgid "The Auto Responder failed to be created"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:812
+msgid "Creating a new Auto Responder"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:819
+msgid "Send this message to the user, how long after joining/being added to the list"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:827
+msgid "Offset Units"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:827
+msgid "Time Units"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:828
+msgid "Offset Time"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:828
+msgid "How much of the unit"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:831
+msgid "Add AutoResponder"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:843
+msgid "Auto Responder has been enabled"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:845
+msgid "Failed to Start the Auto Responder"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:851
+msgid "Your Auto Responder was deleted"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:853
+msgid "Your Auto Responder was not deleted"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:861
+msgid "Auto Responder has been Paused"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:863
+msgid "Failed to Pause the Auto Responder"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:911
+#: ../mailgateway/mailchimp/mailchimp.php:1278
+msgid "Actions"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:918
+msgid "Create New"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:940
+msgid "You have no lists on "
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:964
+msgid "Failed to find that campaign"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:988
+msgid "Recipients"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:988
+msgid "Select a List to send to"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:989
+msgid "Message Subject"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:989
+msgid "Keep it relevant and non Spammy to avoid Spam Filters"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:998
+msgid "You will only need to edit the component tagged as content, but you can edit any template section you need to"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1009
+msgid "Template Part: "
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1017
+msgid "Authenticate"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1017
+msgid "Enable SenderID, DomainKeys and DKIM Authentication"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1091
+msgid "A Test email has been sent"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1098
+#: ../mailgateway/mailchimp/mailchimp.php:1128
+msgid "Campaign has been scheduled"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1147
+#: ../mailgateway/mailchimp/mailchimp.php:1197
+msgid "Or you can:"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1148
+#: ../mailgateway/mailchimp/mailchimp.php:1198
+msgid "Send Now!"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1152
+msgid "You can now preview, test and schedule your email now"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1171
+msgid "Email Address to send the test to:"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1174
+msgid "Send Test Email"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1186
+msgid "Date/Time to send Message"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1189
+msgid "Schedule Message"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1219
+msgid "There are no emails to display"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1238
+msgid "Scheduled:"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1243
+msgid "Draft"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1267
+msgid "after joining the list"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1269
+msgid "Scheduled: "
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1269
+msgid "GMT"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1282
+msgid "Schedule"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1287
+msgid "Start"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1289
+msgid "Pause"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1295
+msgid "Delete"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1727
+msgid "YM MailManager: User Unsubcribed MailChimp"
+msgstr ""
+
+#: ../mailgateway/mailchimp/mailchimp.php:1864
+msgid "Showing Custom templates only"
+msgstr ""
+
+#: ../pages/broadcast.php:26
+msgid "Broadcast Error"
+msgstr ""
+
+#: ../pages/broadcast.php:27
+msgid "You must provide a Email to send or fill in the a email content and subject"
+msgstr ""
+
+#: ../pages/broadcast.php:58
+#, php-format
+msgid "Scheduled for %s it is currently %s"
+msgstr ""
+
+#: ../pages/broadcast.php:70
+msgid "Schedule or send immediately a message to selected Users"
+msgstr ""
+
+#: ../pages/broadcast.php:83
+#: ../pages/series.php:100
+msgid "Select Prior Email"
+msgstr ""
+
+#: ../pages/broadcast.php:83
+#: ../pages/series.php:100
+msgid "Select a previously created email"
+msgstr ""
+
+#: ../pages/broadcast.php:86
+#: ../pages/create.php:73
+#: ../pages/emails.php:10
+#: ../pages/invoice.php:57
+#: ../pages/invoice.php:68
+#: ../pages/invoice.php:79
+msgid "Email Subject"
+msgstr ""
+
+#: ../pages/broadcast.php:86
+#: ../pages/create.php:73
+#: ../pages/invoice.php:57
+#: ../pages/invoice.php:68
+#: ../pages/invoice.php:79
+msgid "Subject of Message"
+msgstr ""
+
+#: ../pages/broadcast.php:87
+#: ../pages/create.php:74
+#: ../pages/invoice.php:58
+#: ../pages/invoice.php:69
+#: ../pages/invoice.php:80
+msgid "Email Message"
+msgstr ""
+
+#: ../pages/broadcast.php:87
+#: ../pages/create.php:74
+msgid "Message to Send, you can use HTML. You can use [ym_mm_custom_field field=\"\"] [ym_mm_if_custom_field field=\"\"]content[/ym_mm_if_custom_field] where the \"\" is a Custom Profile Field"
+msgstr ""
+
+#: ../pages/broadcast.php:88
+msgid "Send At"
+msgstr ""
+
+#: ../pages/create.php:12
+msgid "Created"
+msgstr ""
+
+#: ../pages/create.php:14
+#: ../pages/emails.php:10
+#: ../pages/emails.php:25
+msgid "Edit"
+msgstr ""
+
+#: ../pages/create.php:15
+msgid "Edited"
+msgstr ""
+
+#: ../pages/create.php:28
+msgid " a Email"
+msgstr ""
+
+#: ../pages/create.php:48
+msgid "Email was "
+msgstr ""
+
+#: ../pages/create.php:54
+#, php-format
+msgid "Failed to %s the email, please try again"
+msgstr ""
+
+#: ../pages/create.php:57
+msgid "You must provide one of Email Subject or Content, in order to save a email"
+msgstr ""
+
+#: ../pages/create.php:72
+#: ../pages/emails.php:10
+msgid "Email Name"
+msgstr ""
+
+#: ../pages/create.php:72
+msgid "Handy reference name"
+msgstr ""
+
+#: ../pages/create.php:79
+msgid "Save Email"
+msgstr ""
+
+#: ../pages/emails.php:8
+msgid "Email List"
+msgstr ""
+
+#: ../pages/emails.php:10
+#: ../pages/series.php:119
+msgid "Preview"
+msgstr ""
+
+#: ../pages/emails.php:24
+#: ../pages/series.php:128
+msgid "Email Preview"
+msgstr ""
+
+#: ../pages/gateways.php:41
+msgid "MailManager: Mail Gateways"
+msgstr ""
+
+#: ../pages/gateways.php:42
+#, php-format
+msgid "Your Selection of <strong>%s</strong> has been saved</p>"
+msgstr ""
+
+#: ../pages/gateways.php:46
+msgid "Visit the Settings page for this Gatway for Setup"
+msgstr ""
+
+#: ../pages/gateways.php:58
+msgid "MailManager FirstRun"
+msgstr ""
+
+#: ../pages/gateways.php:59
+msgid "This is your First Visit to MailManager please select a Mail Gateway"
+msgstr ""
+
+#: ../pages/gateways.php:63
+msgid "MailManager: MailMail Gateways"
+msgstr ""
+
+#: ../pages/invoice.php:22
+msgid "Updated Invoicing Emails"
+msgstr ""
+
+#: ../pages/invoice.php:29
+msgid "You can configure invoice style emails to be sent to a customer when a purchase is completed"
+msgstr ""
+
+#: ../pages/invoice.php:30
+msgid "Each email type allows you to use HTML in the body and the following short codes may be used in the subject or body:"
+msgstr ""
+
+#: ../pages/invoice.php:32
+msgid "[blogname] for the name of the blog"
+msgstr ""
+
+#: ../pages/invoice.php:33
+msgid "[blogurl] for the url to the blog"
+msgstr ""
+
+#: ../pages/invoice.php:34
+msgid "[loginurl] for the url to login to the blog"
+msgstr ""
+
+#: ../pages/invoice.php:35
+msgid "You can use [ym_mm_custom_field field=\"\"] [ym_mm_if_custom_field field=\"\"]content[/ym_mm_if_custom_field] where the \"\" is a Custom Profile Field"
+msgstr ""
+
+#: ../pages/invoice.php:36
+msgid "[ym_mm_type] which is replaced with the Type of the item bought, Post/Subscription/Bundle"
+msgstr ""
+
+#: ../pages/invoice.php:37
+msgid "[ym_mm_title] which is replaced with the Name of the item bought, or the post title"
+msgstr ""
+
+#: ../pages/invoice.php:38
+msgid "[ym_mm_cost] which is replaced with the Amount Paid for the item"
+msgstr ""
+
+#: ../pages/invoice.php:45
+msgid "Subscription"
+msgstr ""
+
+#: ../pages/invoice.php:46
+msgid "Post"
+msgstr ""
+
+#: ../pages/invoice.php:47
+msgid "Bundle"
+msgstr ""
+
+#: ../pages/invoice.php:54
+msgid "Subscription Purchase Complete"
+msgstr ""
+
+#: ../pages/invoice.php:65
+msgid "Post Purchase Complete"
+msgstr ""
+
+#: ../pages/invoice.php:76
+msgid "Bundle Purchase Complete"
+msgstr ""
+
+#: ../pages/invoice.php:86
+msgid "Update All Messages"
+msgstr ""
+
+#: ../pages/preview.php:10
+msgid "Message Preview"
+msgstr ""
+
+#: ../pages/series.php:12
+#: ../pages/series.php:35
+#: ../pages/series.php:39
+#: ../pages/series.php:44
+#: ../pages/series.php:87
+msgid "Email Series"
+msgstr ""
+
+#: ../pages/series.php:33
+msgid "Your Series was created"
+msgstr ""
+
+#: ../pages/series.php:37
+msgid "There was a SQL error creating your Series"
+msgstr ""
+
+#: ../pages/series.php:42
+msgid "Please Supply both a name and a description"
+msgstr ""
+
+#: ../pages/series.php:48
+msgid "Once a series has been created you can then add emails to it"
+msgstr ""
+
+#: ../pages/series.php:51
+msgid "Series Name"
+msgstr ""
+
+#: ../pages/series.php:51
+msgid "A Name for the Series"
+msgstr ""
+
+#: ../pages/series.php:52
+msgid "Series Description"
+msgstr ""
+
+#: ../pages/series.php:52
+msgid "A Description for the Series"
+msgstr ""
+
+#: ../pages/series.php:55
+msgid "Add Series"
+msgstr ""
+
+#: ../pages/series.php:82
+msgid "Email Associated"
+msgstr ""
+
+#: ../pages/series.php:84
+msgid "Email Failed to be Associated"
+msgstr ""
+
+#: ../pages/series.php:107
+msgid "Select Delay"
+msgstr ""
+
+#: ../pages/series.php:107
+msgid "Select number of days between emails"
+msgstr ""
+
+#: ../pages/series.php:112
+msgid "Add Email to Series"
+msgstr ""
+
+#: ../pages/series.php:116
+msgid "Current Series Content"
+msgstr ""
+
+#: ../pages/series.php:117
+msgid "Currently in this series"
+msgstr ""
+
+#: ../pages/series.php:119
+#: ../pages/series.php:146
+msgid "ID"
+msgstr ""
+
+#: ../pages/series.php:119
+msgid "Email"
+msgstr ""
+
+#: ../pages/series.php:119
+msgid "Delay"
+msgstr ""
+
+#: ../pages/series.php:119
+msgid "Action"
+msgstr ""
+
+#: ../pages/series.php:127
+msgid "Days"
+msgstr ""
+
+#: ../pages/series.php:138
+msgid "This is a list of email series that exists. Emails are sent out to subscribers the specified number of days after the previous."
+msgstr ""
+
+#: ../pages/series.php:146
+msgid "Name"
+msgstr ""
+
+#: ../pages/series.php:146
+msgid "Description"
+msgstr ""
+
+#: ../pages/series.php:146
+msgid "Sending to"
+msgstr ""
+
+#: ../pages/series.php:146
+msgid "Size/Duration"
+msgstr ""
+
+#: ../pages/series.php:146
+msgid "Enabled"
+msgstr ""
+
+#: ../pages/series.php:160
+msgid "days"
+msgstr ""
+
+#: ../pages/series.php:164
+msgid "Content Edit"
+msgstr ""
+
+#: ../pages/series.php:167
+msgid "Disable"
+msgstr ""
+
+#: ../pages/series.php:167
+msgid "Enable"
+msgstr ""
+
+#: ../pages/series.php:186
+msgid "Add"
+msgstr ""
+
+#: ../pages/series.php:190
+msgid "Create new series"
+msgstr ""
+
+#: ../pages/settings.php:15
+msgid "Mail Manager Settings"
+msgstr ""
+
+#: ../pages/settings.php:19
+msgid "The Email you Supplied for the From Address is invalid"
+msgstr ""
+
+#: ../pages/settings.php:32
+#: ../pages/welcome.php:14
+#: ../pages/welcome.php:15
+msgid "Settings were updated"
+msgstr ""
+
+#: ../pages/settings.php:40
+msgid "Send From Details"
+msgstr ""
+
+#: ../pages/settings.php:50
+msgid "Misc Settings"
+msgstr ""
+
+#: ../pages/settings.php:52
+msgid "When do you want the main email series sender to run"
+msgstr ""
+
+#: ../pages/settings.php:65
+msgid "Hour"
+msgstr ""
+
+#: ../pages/settings.php:65
+msgid "What hour to run the series checker at"
+msgstr ""
+
+#: ../pages/settings.php:66
+msgid "Min"
+msgstr ""
+
+#: ../pages/settings.php:66
+msgid "What min past the hour to run the series checker at"
+msgstr ""
+
+#: ../pages/welcome.php:21
+msgid "Welcome Message Settings"
+msgstr ""
+
+#: ../pages/welcome.php:23
+msgid "You can Specify a personal welcome message to replace the User Welcome/Password Email"
+msgstr ""
+
+#: ../pages/welcome.php:40
+msgid "Enable This Welcome Message"
+msgstr ""
+
+#: ../pages/welcome.php:41
+msgid "Welcome Subject"
+msgstr ""
+
+#: ../pages/welcome.php:41
+msgid "You can use the [blogname] and [blogurl] short codes here"
+msgstr ""
+
+#: ../pages/welcome.php:42
+msgid "Message to Send, you can use HTML. You need to include the [login] and [password] short tags, other wise the New User will not be able to log in! You can use [blogname], [blogurl], [loginurl]. You can use [ym_mm_custom_field field=\"\"] [ym_mm_if_custom_field field=\"\"] where the \"\" is a Custom Profile Field"
+msgstr ""
+
+#: ../pages/welcome.php:46
+msgid "Update"
+msgstr ""
+

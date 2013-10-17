@@ -1,0 +1,275 @@
+/*
+* $Id: ym.css 2300 2012-08-09 14:33:45Z bcarlyon $
+* $Revision: 2300 $
+* $Date: 2012-08-09 15:33:45 +0100 (Thu, 09 Aug 2012) $
+*/
+
+.like_form {
+	-moz-border-radius:11px 11px 11px 11px;
+	-moz-box-shadow:0 4px 18px #C8C8C8;
+	background:none repeat scroll 0 0 #FFFFFF;
+	border:1px solid #E5E5E5;
+	font-weight:normal;
+	margin-left:8px;
+	padding:16px 16px 40px;
+}
+.like_form fieldset {
+	border: 0px;
+}
+
+.ym_input {
+	-moz-border-radius:4px 4px 4px 4px;
+	border-style:solid;
+	border-width:1px;
+	padding: 5px;
+	font-size: 12px;
+	border-color: #CDCDCD;
+}
+
+.ym_module_name {
+	margin-bottom: 5px;
+}
+
+.ym_register_heading {
+	margin-bottom: 10px;
+	text-align: center;
+}
+
+.ym_module_logo {
+	border: none;
+}
+
+.ym_backlink {
+	margin-top: 10px;
+}
+
+.ym_section_heading {
+	margin-bottom: 10px;
+	color: gray;	
+}
+	
+.ym_setting_section_heading {
+	margin-bottom: 10px;
+	color: gray;
+}
+
+.ym_setting_heading {
+	margin: 10px 0px;
+}
+
+.ym_setting_list_item {
+	margin-bottom: 5px;
+}
+
+.ym_setting {
+	margin-top: 10px;
+	border-top: 1px solid #EFEFEF;
+}
+
+.ym_account_options {
+	list-style: none;
+	margin: 0;
+	padding: 3px;
+}
+
+.ym_strong {
+	color: black;
+	font-weight: bold;
+}
+
+.ym_text {
+	border: 1px solid #DEDEDE;
+	padding: 2px;
+}
+
+a {
+	cursor: pointer;
+}
+
+.ym_important {
+	
+}
+
+.ym_subs_intro {
+	margin-bottom:10px;
+}
+
+.ym_register_form_subs_row{
+	margin:10px 0px;
+	overflow: auto;
+}
+
+.ym_register_form_caption {
+	color: gray;
+	font-size: 9px;
+}
+.ym_register_form_required {
+	color: gray;
+	font-weight: 700;
+}
+
+.ym_clear {
+	clear: both;
+	height: 1px;
+	width: 1px;
+}
+
+.ym_register_form_row {
+	margin-bottom: 15px;
+}
+
+.ym_reg_form_pack_name {
+	float: left;
+	width: 235px;
+}
+
+.ym_reg_form_pack_radio {
+	float: left;
+	width: 25px;
+}
+
+.ym_register_form_row p {
+	padding-bottom: 0px;
+}
+
+.ym_reg_select {
+}
+.ym_reg_multiselect {
+	width: 100%;
+}
+
+.ym_reg_input, .ym_reg_select {
+	background:#FBFBFB none repeat scroll 0 0;
+	border:1px solid #E5E5E5;
+	font-size:14px;
+	margin-bottom:5px;
+	margin-right:6px;
+	margin-top:5px;
+	padding:3px;
+	width:250px;
+}
+
+.ym_form {
+	-webkit-border-bottom-left-radius: 0px;
+	-webkit-border-bottom-right-radius: 0px;
+	-webkit-border-top-left-radius: 0px;
+	-webkit-border-top-right-radius: 0px;
+	-webkit-box-shadow: none;
+	border: none;
+	padding: 20px 0 0 0;
+}
+
+.sidebar_box .ym_form, .widget .ym_form {
+	padding: 0px;
+}
+
+.ym_admin_ppp_totals {
+	border-top: 1px solid #CDCDCD;
+	font-weight:bold;
+}
+
+.ym_auth p {
+	font-size: 14px;
+	line-height: 1.5em;
+}
+
+.ym_message {
+	margin-bottom:1em;
+	background-color:#E4F2FD;
+	border: 1px solid #C6D9E9;
+	margin:5px;
+	font-size:13px;
+	color:#333333;	
+}
+
+.ym_message_liner {
+	margin: 5px 10px;
+}
+
+.ym_table th {
+	font-weight: bold;
+	vertical-align: top;
+}
+
+.ym_table td {
+	border-top: 1px solid #DEDEDE;
+	vertical-align: top;
+}
+
+.ym_sidebar_upgrade_pack_description {
+	float: left;
+	margin-bottom: 5px;
+}
+
+.ym_upgrade_page_pack_description {
+	float: left;
+	width: 100%;
+	margin-bottom: 5px;
+}
+
+.ym_upgrade_page_pack_string {
+	float: left;
+	margin-bottom: 5px;
+	font-style:italic;
+}
+
+.ym_upgrade_widget .ym_form {
+	padding: 0px;
+}
+
+.ym_pack_dropdown {
+	width: 225px;
+}
+
+.ym_long_input {
+	width: 450px;
+}
+
+.ym_ppp_page {
+	width: 100%;
+}
+
+.ym_ppp_page th {
+	text-align: left;
+	border-bottom: 1px solid silver;
+}
+
+.ym_ppp_page td {
+	padding-bottom: 5px;
+}
+
+.ym_ppp_page_excerpt {
+	font-size: 10px;
+	padding-bottom: 5px;
+	border-bottom: 1px solid silver;
+}
+
+.ym_register_form, .ym_form {
+	padding: 0px !important;
+	margin: 0px !important;
+	border: none !important;
+	background: none !important;
+	-moz-box-shadow: 0px !important;
+	-moz-border-radius: 0px !important;
+	text-align: center;
+}
+
+.ym_upgrade_button {
+	float: left;
+	overflow:auto;
+	text-align: center;
+}
+
+.premium_content_intro {
+	margin-bottom: 10px;
+}
+
+.ym_buy_button_post_buynow, .ym_buy_button_bundle_buynow {
+	border: 1px solid #5F5F5F;
+	padding: 5px;
+	margin: 5px;
+}
+
+.ym_forward_link {
+	float: right;
+}

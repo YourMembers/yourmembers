@@ -1,0 +1,40 @@
+#loginform, #ym_fbook_status {
+	width: 75%;
+	margin: 20px auto;
+	padding: 20px;
+	
+	background: #E9EBF2;
+	border: 3px solid #294589;
+	
+	-webkit-border-radius: 30px;
+	-moz-border-radius: 30px;
+	border-radius: 30px;
+}
+#loginform div {
+	margin: 20px auto;
+}
+#loginform label {
+	font-weight: 700;
+}
+#loginform input {
+	float: right;
+}
+#loginform #ym_fb_login_button {
+	width: 50px;
+	padding: 3px 10px;
+	
+	color: #FFFFFF;
+	background: #294589;
+	border: 3px solid #294589;
+	
+	-webkit-border-radius: 5px;
+	-moz-border-radius: 5px;
+	border-radius: 5px;
+}
+#loginform #ym_fb_login_button:hover {
+	color: #000000;
+	background: #E9EBF2;
+}
+.login-submit {
+	display: none;
+}
