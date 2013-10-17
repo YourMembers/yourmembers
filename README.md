@@ -10,7 +10,9 @@ This code is provided as is, without comment or warranty, Coding Futures LTD wil
 To install Your Members, use the ym_trunk upload and rename as ym/ and activate. The previous activation system is turned off and is set to return true.
 
 ###Configure and running
-YM is a massive plugin over the next few weeks expect us to start putting up all the old documentation.
+YM is a massive plugin over the next few weeks expect us to start putting up all the old documentation on Github you can see what is currently up in the
+[Your Members documentation](https://github.com/YourMembers/yourmembers/wiki/Your-Members-Documentation) section.
+
 
 ###Licensing
 All PHP code is licensed under GPL3 as is any other code within the repository unless otherwise stated. The license folder contains the older licenses for reference only and do not cover the code found in this repository.
